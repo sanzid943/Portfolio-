@@ -392,7 +392,7 @@ export default function Portfolio() {
                 <Github size={15} /> view_projects()
               </a>
               <a
-                href="https://drive.google.com/file/d/1iytsZze-1RL0oajqau_4I9vRBusZcQTS/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1ur-eiFEhAEoHPTu1E2c4DEiMa9y_koyw/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary px-5 py-2.5 rounded-md text-sm font-semibold flex items-center gap-2 border"
