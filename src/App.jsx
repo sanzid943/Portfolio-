@@ -389,7 +389,7 @@ export default function Portfolio() {
                 className="btn-primary px-5 py-2.5 rounded-md text-sm font-semibold flex items-center gap-2"
                 style={{ fontFamily: "'JetBrains Mono', monospace", background: "#2DE2E6", color: "#0F0B1E" }}
               >
-                <Github size={15} /> view_projects()
+                <Github size={15} /> view_github_projects()
               </a>
               <a
                 href="https://drive.google.com/file/d/1ur-eiFEhAEoHPTu1E2c4DEiMa9y_koyw/view?usp=drive_link"
@@ -398,7 +398,7 @@ export default function Portfolio() {
                 className="btn-primary px-5 py-2.5 rounded-md text-sm font-semibold flex items-center gap-2 border"
                 style={{ fontFamily: "'JetBrains Mono', monospace", borderColor: "#FF3EA5", color: "#FF3EA5" }}
               >
-                <Download size={15} /> download_resume
+                <Download size={15} /> view_resume
               </a>
             </div>
           </Reveal>
