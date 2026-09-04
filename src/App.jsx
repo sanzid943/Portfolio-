@@ -45,9 +45,9 @@ const SKILL_GROUPS = [
 const PROJECTS = [
   {
     id: "FILE_01",
-    name: "Student Expense Tracker",
-    desc: "A tool for logging and reviewing personal spending, built to practice clean data handling and everyday problem-solving.",
-    tag: "Software Development",
+    name: "Password Security Analyzer",
+    desc: "A web-based tool that evaluates password strength and provides recommendations to help users create stronger and more secure passwords.",
+    tag: "Frontend Development",
   },
   {
     id: "FILE_02",
@@ -57,15 +57,15 @@ const PROJECTS = [
   },
   {
     id: "FILE_03",
-    name: "Hall Seat Management System",
-    desc: "A system for allocating and tracking dormitory seats, focused on structured records and reliable database design.",
-    tag: "Database Management",
+    name: "Movie Explorer",
+    desc: "A web application that allows users to explore movies, search for titles, and view useful movie information in an interactive interface.",
+    tag: "Web Application",
   },
   {
     id: "FILE_04",
-    name: "Online Examination Management System",
-    desc: "An end-to-end platform for running exams online — covering question storage, submissions, and result handling.",
-    tag: "Full-Stack Project",
+    name: "Electricity Bill Calculator",
+    desc: "A simple application that calculates electricity bills based on electricity consumption and applicable billing rates.",
+    tag: "Web Application",
   },
 ];
 
@@ -389,7 +389,7 @@ export default function Portfolio() {
                 className="btn-primary px-5 py-2.5 rounded-md text-sm font-semibold flex items-center gap-2"
                 style={{ fontFamily: "'JetBrains Mono', monospace", background: "#2DE2E6", color: "#0F0B1E" }}
               >
-                <Github size={15} /> view_github_projects
+                <Github size={15} /> view_github_profile
               </a>
               <a
                 href="https://drive.google.com/file/d/1ur-eiFEhAEoHPTu1E2c4DEiMa9y_koyw/view?usp=drive_link"
@@ -398,7 +398,7 @@ export default function Portfolio() {
                 className="btn-primary px-5 py-2.5 rounded-md text-sm font-semibold flex items-center gap-2 border"
                 style={{ fontFamily: "'JetBrains Mono', monospace", borderColor: "#FF3EA5", color: "#FF3EA5" }}
               >
-                <Download size={15} /> view_resume
+                <Download size={15} /> download_resume
               </a>
             </div>
           </Reveal>
